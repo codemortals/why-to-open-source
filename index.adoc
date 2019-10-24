@@ -1,0 +1,212 @@
+= Open Source
+:toc:
+:date:      2019-10-18
+:version:   0.1.0
+:docinfo1:
+
+[abstract]
+== Abstract
+
+You are probably already benefiting and accelerating your project by using open source from libraries like React to frameworks like Angular etc.
+
+Did you know you are barely scratching the surface and could benefit even more by making your projects open source too.
+
+Have you ever asked yourself "why should I open source my project", perhaps the questions you should be asking "Why should I not open source my project"
+
+[NOTE]
+====
+Your data still remains private, in-fact it will become even more secure, because there will be a larger skill-set reviewing the work from other developers to infosec people.
+====
+
+== Benefits
+
+[%hardbreaks]
+**Higher quality of work**
+Typical projects which are closed source and have limited visibility tend to slip in terms of quality and best practice, because corners get cut due to reduced accountability. With open source work done by project contributors is visible to the community and future employers, and therefore contributors go the extra mile to make sure it is of the highest quality to ensure that it will be something they will be proud of.
+
+[%hardbreaks]
+**Reduce duplication between teams**
+Software teams use frameworks and libraries to improve productivity, within a company projects will have common building blocks. When done in isolation multiple ways of solving these problems are implemented. However, by having the project open source, all teams can contribute to these common foundations and as such not only  accelerate project delivery but continually improve the quality by collaborating with internal and external teams.
+
+[%hardbreaks]
+**Hiring made easier**
+Recruitment in technology is flawed, it revolves around managers speaking to agencies who are keen meet their targets in essence "bums on seats", where hiring is often a success, is through recommendations. Open source can been seen as a form of recommendation in that contributors are already involved not just technically but also in their behaviour. When hiring via this route, the onboarding process is more efficient, streamlined and value for money.
+
+[%hardbreaks]
+**Collaboration**
+The core team will have a limited skills and experience on a project. Companies are adopting Agile and DevOPs practices, a core value of both is collaboration. Using open source extends your potential reach to the wider community and their skills / expertise.
+
+[%hardbreaks]
+**Onboarding**
+Documentation has always be an after thought and out of sync with the project state. Open source promotes documentation as code, keeping it alive and in sync, regularly tested and versioned against the product. A key success factor of your project is the clarity of the documentation resulting in the effectiveness of the contributors.
+
+[%hardbreaks]
+**Company branding**
+Companies are doing great things but behind closed doors. Often the standards they are using, both technological and processes, are under lock and key. When you have an open source organisation developers are clear on what would be expected of them, this will make them more engaged and able to focus their skills accordingly. This also shows the community that the company is committed to technology and willing to give back, thus strengthening their brand and enabling them to hire the best.
+
+[%hardbreaks]
+**Ideas / features, from functionality to technology**
+The business market is highly competitive, as such creativity and speed to market are key in success. Having a community who believe in your company will enhance the ideas available, both with new ideas and refinement of existing ones. It challenges internal teams by suggesting alternative ways to achieve results, both with how a solution can be delivered and with how work gets prioritised.
+
+[%hardbreaks]
+**Enabling large scale defect triage**
+Private projects are only involves the internal development team, therefore there is a limited in terms of skills, people, time. this means potential for bugs is high and even automated practices are only built on the knowledge of those involved. Making use of the open source community and large variety of skills and experiences, which enables people to submit issues and resolutions they have found. However, the more obscure  bugs may require motivation, for example Mozilla's https://www.mozilla.org/en-US/security/bug-bounty/[Security Bug Bounty Project]
+
+[NOTE]
+====
+Open source is for everyone!
+The transparency bridges the gap between different skill sets and reinforces team culture
+====
+
+== Levels of Open Source
+
+[cols="1,2,3,2,2,3", options="header"]
+.Open source maturity levels
+|===
+|Level
+|Title
+|Description
+|Effort
+|Benefit
+|Recommendation
+
+|1
+|Checkbox exercise
+|Open source late with no engagement
+|Little to none
+|Little to none
+|Not recommended as no benefit
+
+|2
+|Average
+|Open source early with engagement
+|Minimal on going
+|Minimal and slow
+|What 95% of open source are doing, slow growth
+
+|3
+|Advanced
+|Open source early with tutorials and behind the scenes
+|High
+|High
+|A great way to stand out from the crowd and accelerate growth
+
+|4
+|Developer Relations (Devrel)
+|Mentoring and outreach
+|High
+|High
+|Usually requires a dedicated person. Company examples `Monzo`, `Twilio`
+|===
+
+== Recommended Road Map
+
+Coming soon...
+// mermaid::roadmap.mmd[format="svg", align="center"]
+
+== Scope
+
+Projects are made up of various components / types that can be made open source;
+
+- Documentation
+- Planning (e.g. defects, ideas, road-maps)
+- Common / shared (e.g. libraries for branding or authentication)
+- External projects
+- Internal projects
+
+== Goals
+
+There are many ways in which your open source journey can begin and what may follow, this would be a common set of expectations and activities that you would look to perform.
+
+=== Short term goals (less than 6 months)
+
+- Select current and future projects for open source
+- Increase project awareness and visibility (to both internal and external communities)
+- Reduce duplication of efforts, start to create common libraries and boilerplate projects
+- Monitor improvements in quality and processes
+- Review and improve documentation and backlogs
+- Recording / document journey for future use
+
+KPIs
+
+Stars, Forks, Pull Requests, Issues, Comments
+
+=== Medium term goals (6 months to 2 years)
+
+- Build a community of contributors (issues and code)
+- Recruit team members from the community
+- Share vision and receive feedback (road-map)
+- Speaking at technology events
+- Begin to socialise the journey
+- Produce tutorial videos on how to use / build projects
+
+KPIs
+
+Number of events spoken at, community projects
+
+=== Long term goals (2 years +)
+
+- Developer relations to manage social media / community
+- Hosting of technology events
+- Mentoring at hackathons to develop more product ideas
+- Setup an internal "center of excellence" team / partner to ensure consistent delivery
+- Convert to an Open Source by default mantra for new projects
+
+KPIs
+
+Creation of a software development kit
+
+== Activities
+
+[%hardbreaks]
+Effort levels based on;
+Low = Easy to decide and Easy to implement
+Medium = Hard to decide and Easy to implement
+Medium = Easy to decide and Hard to implement
+High = Hard to decide and Hard to implement
+
+[cols="5,1", options="header"]
+|===
+|Activity
+|Effort
+
+|Choose a name for your organisation on GitHub
+|Low
+
+|Selection of license to use consider looking at https://choosealicense.com
+|Medium
+
+|Register social media accounts (same name as GitHub organisation *Labs?)
+|Low
+
+|Community engagement (management of issues, pull requests etc)
+|Medium
+|===
+
+== Risks
+
+[%hardbreaks]
+**Exposure of bad practices**
+Projects evolve with time, when initially private, it is possible during early development that sensitive information is incorporated in the code base. This sensitive information could be: passwords, keys, tokens, or offensive language can be added. Even if removed this sensitive information will still remain in project history. Open sourcing early increases accountability and promotes best practices to eliminate this risks.
+
+[%hardbreaks]
+**Communication**
+Within many companies traditional management structures are in place, this often consists of managers who exposure to changes in the technical community are mis-interpreted. This leads to a fear of open source for reasons such as "my competitor will steal my code", "my data is will be exposed", "hackers will make changes" - none of these views are true, look at Government Digital Services from Ministry of Justice, Home Office, HMRC, DEFRA,  to Google, Microsoft, Monzo, Starling Bank. Open source has not to date been responsible for any of these common mis-conceptions.
+
+## Glossary
+
+[cols="1,5", options="header"]
+.Glossary of terms
+|===
+|Term
+|Description
+
+|Repository (repo)
+|Project or part of a project, which may contain code, documentation, project planning. Some examples are API, UI, Branding (supporting dependencies / libraries)
+|===
+
+### References
+
+- Government Digital Service UK "Make new source code open" https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open
+- Wikipedia "Open Source Maturity Model" https://en.wikipedia.org/wiki/OpenSource_Maturity_Model
+- GitHub licenses http://choosealicense.com
